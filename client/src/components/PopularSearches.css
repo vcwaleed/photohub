@@ -1,0 +1,72 @@
+/* src/components/PopularSearches.css */
+.popular-searches {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.popular-searches h2 {
+     color: #000;
+    font-family: "Poppins";
+    font-size: 1.4rem;
+    line-height: normal;
+ 
+  
+}
+
+.search-buttons {
+  color: #212121;
+  background-color: rgb(249,249,249);
+  padding: 35px 15px;
+  font-weight: 600;
+  border: 4px solid #8B8B8B;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+   margin: 5px;
+  flex-basis: calc(20% - 10px);
+  
+}
+
+.search-button {
+  color: #121010;
+  background-color: rgb(246, 241, 241);
+  gap: 50px;
+  padding: 10px 15px;
+  font-weight: 600;
+  border: 3px solid #8B8B8B;
+  width: 140px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  font-style: normal;
+  font-family: 'Poppins';
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 5px; /* Add margin for spacing between buttons */
+}
+.search-button a{
+  text-decoration: none;
+  color: #333232;
+
+}
+
+.search-button:hover {
+  background-color: #afaeae;
+  color: #d4d0d0;
+
+}
+
+
+@media only screen and (min-width: 768px) {
+  .search-buttons {
+      flex-basis: calc(20% - 10px);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .search-buttons {
+      flex-basis: calc(50% - 10px);
+  }
+}

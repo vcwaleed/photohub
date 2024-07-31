@@ -1,0 +1,197 @@
+
+  
+  .adminicon {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 20px;
+  }
+  .adminicon_header {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 26px;
+  }
+  .adminicon, .adminicon_header {
+    margin-right: 5px;
+  }
+  
+ 
+  
+  .admingrid-container {
+    display: grid;
+    grid-template-columns: 260px 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas:
+      'sidebar header header header'
+      'sidebar main main main';
+    height: 100vh;
+  }
+ 
+  
+  /* Sidebar  */
+  #adminsidebar {
+    grid-area: sidebar;
+    height: 100vh;
+    background-color: #f7f8fa57;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+  }
+  
+  .adminsidebar-title {
+    padding: 15px 30px 0px 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .adminsidebar-brand {
+    font-size: 20px;
+    font-weight: 900;
+    
+  }
+  
+  .adminsidebar-list {
+    padding: 0;
+    list-style-type: none;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .adminsidebar-list-item {
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+  .adminsidebar-list-item:hover {
+    background-color: rgba(25, 97, 204, 0.867);
+    cursor: pointer;
+  }
+  
+  .adminsidebar-list-item > a {
+    text-decoration: none;
+    color: #0d0d0d;
+  }
+  
+  
+  
+  /* End Sidebar  */
+  
+  
+  /* Main  */  
+/* Main container */
+.admingrid-container {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Navbar on the left, main content on the right */
+  grid-template-areas: "sidebar main";
+}
+
+/* Main content */
+.adminmain-container {
+  grid-area: main;
+  overflow-y: auto;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.95);
+  
+}
+
+.adminmain-title {
+  margin-bottom: 40px;
+  color: #0d0d0d;
+}
+
+/* Cards */
+.adminmain-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive card layout */
+  gap: 10px;
+}
+
+.admincard {
+  background-color: #3862ef;
+  border-radius: 8px;
+  padding: 50px;
+}
+
+.admincard-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admincard h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.admincard h1 {
+  margin: 5px 0;
+  font-size: 24px;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .admingrid-container {
+    grid-template-columns: 1fr; /* Full width on smaller screens */
+  }
+
+  .adminmain-container {
+    padding: 20px 0;
+  }
+
+  .adminmain-cards {
+    grid-template-columns: 1fr; /* Full width cards on smaller screens */
+  }
+}
+
+  /* End Main  */
+  
+  
+  /* Medium <= 992px */
+    
+  @media screen and (max-width: 992px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.2fr 3fr;
+      grid-template-areas:
+        'header'
+        'main';
+    }
+  
+    #sidebar {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: inline;
+    }
+  
+    .sidebar-title > span {
+      display: inline;
+    }
+  }
+  /* Small <= 768px */
+    
+  @media screen and (max-width: 768px) {
+    .main-cards {
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-bottom: 0;
+    }
+  
+    .charts {
+      grid-template-columns: 1fr;
+      margin-top: 30px;
+    }
+  }
+  
+  /* Extra Small <= 576px */
+  
+  @media screen and (max-width: 576px) {
+    .hedaer-left {
+      display: none;
+    }
+  }
+  

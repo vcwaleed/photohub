@@ -1,0 +1,83 @@
+/* Style for the entire page */
+.order-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .order-container h1 {
+    text-align: center;
+  }
+  
+  /* Style for each cart item */
+  .ordercart-item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the item image */
+  .orderitem-image img {
+    width: 170px;
+    height: 100px;
+    margin-top: 10px;
+  margin-left: 20px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin-right: 90px;
+  }
+  
+  /* Style for the item details */
+  .orderitem-details {
+    padding-top: 30px;
+    display: flex;
+    flex:1;
+    flex-shrink: 1;
+    justify-content: space-around;
+  }
+  
+  /* Style for each detail */
+  .order-detail {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the total price and pay button */
+  .ordercart-total {
+    margin-top: 20px;
+    margin-right: 35px;
+    text-align: right;
+  }
+  
+  .ordercart-total p {
+    font-weight: bold;
+  }
+  .heading-order{
+
+    font-weight: bold;
+  }
+  
+  .ordercart-total button {
+    margin-right: 20px; /* Add margin to the right */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .ordercart-total button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .delete-icon {
+    transition: transform 0.3s ease-in-out; 
+    display:flex;
+  
+  }
+  
+  .delete-icon.clicked {
+    transform: scale(1.2); 
+  }
+  .delete-icon:hover {
+    color: red; 
+  }

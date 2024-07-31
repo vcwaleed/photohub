@@ -1,0 +1,11 @@
+.main-heading {
+    text-align: center;
+    margin-top: 3vh; 
+  }
+  
+  .main-heading h1 {
+    color: #333; 
+    font-size: 3rem; 
+    font-family: 'poppils'; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }

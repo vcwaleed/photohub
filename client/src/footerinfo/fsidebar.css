@@ -1,0 +1,33 @@
+.sidebarf {
+    width: 250px;
+    background-color: #faf6f6;
+    color: #191919; 
+    height: 60rch; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+}
+
+.sidebarf ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebarf ul li {
+    padding: 10px 0; 
+}
+
+.sidebarf ul li a {
+    color: #030202; 
+    text-decoration: none;
+    transition: color 0.3s; 
+    display: block;
+    border-radius: 3px; 
+    size:10px;
+}
+
+.sidebarf ul li a:hover {
+    color: #ffffff; /* Adjusted link color on hover */
+    background-color: #161616; /* Changed background color on hover */
+}

@@ -1,0 +1,59 @@
+
+
+.about-us-containerf {
+    display: flex;
+}
+
+.contentf {
+    flex: 1;
+    padding: 20px;
+}
+.main-wishlist-container
+{
+    display: flex;
+}
+
+.wishlist-container {
+    flex: 1;
+    padding: 20px;
+  
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 800px;
+    
+  }
+  
+  
+  
+  .wishlist-container h3 {
+    font-size: 1rem; /* Adjusted font size */
+    color: #555; /* Changed text color */
+    line-height: 1.6; /* Increased line height for better readability */
+    margin-bottom: 20px; /* Added margin bottom for spacing */
+  }
+
+
+/* ================================================================= */
+
+.downloading-tips-container {
+    margin-top: 20px; /* Add any margin you desire */
+  }
+  
+  .tip {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add margin between tips */
+  }
+  
+  .mouse-icon {
+    color: #007bff; /* Set icon color */
+    margin-right: 10px; /* Add margin between icon and text */
+  }
+  
+  .tip-text {
+    font-size: 16px; /* Set text size */
+    color: #333; /* Set text color */
+  }
+  

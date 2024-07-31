@@ -1,0 +1,152 @@
+.tables-container {
+    margin-top: 2vh;
+    margin: 20px;
+    background-color: #ececec;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  .tables-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .b-cart{
+    background-color: black;
+    border-radius: 21vh;
+    width: 12vh;
+    height: 5vh;
+    font-weight: bold;
+    color: white;
+  }
+  
+  
+  .tables-content2 {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .table2 {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .b-cart{
+    background-color: black;
+    border-radius: 21vh;
+    width: 12vh;
+    height: 5vh;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .tables-container2 {
+    margin-top: 2vh;
+    margin: 20px;
+    background-color: #3498db;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  
+  }
+  
+  .tables-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .tables-container3 {
+    margin-top: 2vh;
+    margin: 20px;
+    background-color:#07bc0c;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  
+  
+  .tables-content3 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .b-cart{
+    background-color: black;
+    border-radius: 21vh;
+    width: 20vh;
+    height: 5vh;
+    font-weight: bold;
+    color: white;
+    display:flex;
+    align-items: center;
+  }
+  
+  
+  
+  .terms-and-conditions {
+    margin: 20px;
+  }
+  
+  .shadow {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  .shadow p {
+    font-weight: bold;
+  }
+  
+  .shadow ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .shadow li {
+    margin-bottom: 10px;
+  }

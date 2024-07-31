@@ -1,0 +1,107 @@
+.login-container {
+    padding-top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4vh;
+}
+
+.login-box {
+    background-color: #fff;
+    padding: 2rem 3rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.login-box h2 {
+    margin-block: 1rem;
+    padding-block: 0.6rem;
+    color: rgba(0, 212, 255, 1);
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.login-box div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.login-box input {
+    border: none;
+    padding: 0.5rem;
+    border-bottom: 1px solid gray;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+.login-box input::placeholder {
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.login-box button {
+    background-color: rgba(0, 212, 255, 1);
+    color: #fff;
+    border: none;
+    padding: 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+
+.alert {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+
+.btn-primary {
+    background-color: rgba(0, 212, 255, 1);
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: rgba(0, 212, 255, 0.8);
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+/* Styling for the signup button */
+.signup-button {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background-color: #0056b3; 
+  }
+  
+  
+  .signup-link {
+    text-decoration: none;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline; 
+  }
+  

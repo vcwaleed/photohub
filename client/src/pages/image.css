@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .img-container {
+    width: 1800px;
+    margin: 20px auto;
+    columns: 3;
+    column-gap: 21px;
+  }
+  
+  .img-container .img-box2 {
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
+  }
+  
+  .img-container .img-box2 img {
+    max-width: 100%;
+    /* width: 470px; 
+    height: 290px; */
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+ 
+  
+  .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .popup img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 15px;
+  }
+  
+  .popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .img-h1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .img-container {
+    width: 100%;
+    max-width: 1800px;
+    margin: 20px auto;
+    columns: 3;
+    column-gap: 21px;
+  }
+  
+  .img-container .img-box2 {
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
+  }
+  
+  .img-container .img-box2 img {
+    max-width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+ 
+  .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .popup img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 15px;
+  }
+  
+  .popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .img-h1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+  }
+  
+  
+  
+  .img-box2 {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
+  }
+  
+  .img-box2:hover::after {
+    content: attr(title);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+  
+  
+    bottom: 100%; /* Position the tooltip above the image */
+    left: 50%; /* Position the tooltip at the center horizontally */
+  
+  
+    transform: translateX(-50%); 
+    white-space: nowrap; 
+    z-index: 1; 
+  }
+  
+
+  
+  .img-box2 img {
+    max-width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    color: white;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .overlay-ratting {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    .img-container {
+      columns: 1;
+     
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and below) */
+  @media only screen and (max-width: 768px) {
+    .img-container {
+      columns: 1;
+      column-gap: 15px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and below) */
+  @media only screen and (max-width: 992px) {
+    .img-container {
+      columns: 2;
+      column-gap: 15px;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and below) */
+  @media only screen and (max-width: 1200px) {
+    .img-container {
+      columns: 2;
+      column-gap: 15px;
+    }
+  }
+  
+ 
+/* CSS for the button */
+.addtocard {
+  background-color: #1d1e1f; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 9px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect with animation */
+.addtocard:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  animation: shake 0.5s; /* Shake animation */
+}
+
+/* Define shake animation */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-3px); }
+  100% { transform: translateX(0); }
+}
+
+/* Click effect */
+.addtocard:active {
+  background-color: #004080; /* Even darker blue when clicked */
+}
+
+
+.container5 {
+  max-width: 500px; /* Adjust max-width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+
+  /* Center the content vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Set container height to viewport height */
+}
+
+
+  
+  

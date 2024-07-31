@@ -1,0 +1,95 @@
+/* src/components/Container.css */
+.wh-container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border: 2px solid rgb(82, 80, 80);
+  border-radius: 30px; /* Increased border-radius for a rounded look */
+  text-align: left;
+  height:40vh ;
+  width:95% ; /* Set the desired width */
+  margin: 0px;
+   /* Center the container horizontally with top and bottom margin */
+}
+
+
+.wh-con-h2{
+  font-family: 'Poppins';
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom : .6rem;
+
+
+
+}
+
+.wh-container p {
+  font-family:'Poppins';
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Additional styles for centering the container on the page */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh; /* Adjust as needed */
+}
+
+/* src/components/Container.css */
+
+.wh-container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border: 2px solid rgb(82, 80, 80);
+  border-radius: 30px;
+  text-align: left;
+  height: 20vh;
+  width: 95%; /* Set the desired width */
+  margin: 0 auto; /* Center the container horizontally with top and bottom margin */
+}
+
+.wh-con-h2 {
+  font-family: 'Poppins';
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 0.6rem;
+}
+
+.wh-container p {
+  font-family: 'Poppins';
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Additional styles for centering the container on the page */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh; /* Adjust as needed */
+}
+
+/* Media queries for responsiveness */
+
+/* Small devices (phones, 600px and below) */
+@media only screen and (max-width: 600px) {
+  .wh-container {
+    width: 100%;
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .wh-con-h2 {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .wh-container p {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}

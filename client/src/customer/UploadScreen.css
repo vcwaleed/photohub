@@ -1,0 +1,108 @@
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .upload-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #e5e8ea, #8b9091);
+  }
+  
+  .upload-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .upload-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .dropzone {
+    border: 2px dashed #3498db;
+    padding: 20px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+  }
+  
+  .dropzone.active {
+    border-color: #e74c3c;
+  }
+  
+  .uploaded-image {
+    width: 100%;
+    max-height: 100px;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .uploaded-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  }
+  
+  .upload-placeholder span {
+    font-size: 18px;
+    color: #666;
+    transition: color 0.3s;
+  }
+  
+  .upload-placeholder:hover span {
+    color: #3498db;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+  }
+  
+  .upload-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+    color: #333;
+  }
+  
+  .upload-input:focus {
+    outline: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .upload-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .upload-button:hover {
+    background-color: #c0392b;
+    transform: translateY(-3px);
+  }
+  

@@ -1,0 +1,220 @@
+
+.form-container {
+   
+  
+    width: 1030px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.form-group2 {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.form-group-container {
+    width: 50%;
+    float: left;
+}
+
+.form-group2 label {
+    display: inline-block;
+    width: 150px; /* Adjust the width as needed */
+    text-align: right; /* Align label text to the right */
+    margin-right: 20px; /* Add some space between label and input */
+}
+
+.form-group2 input,
+.form-group2 select {
+    width: calc(100% - 180px); /* Adjust the width to fill the remaining space */
+    border: 1.2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    vertical-align: top; /* Align input fields to the top of their container */
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.main-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-heading h2 {
+    font-size: 24px;
+    color: #333; /* Adjust the color as needed */
+}
+
+
+/* Define animation keyframes */
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fade-out {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+/* Apply animation to messages */
+.message {
+    animation: fade-in 0.5s ease-out forwards, fade-out 0.5s ease-in forwards 3s;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+
+/* Photographersuccess.css */
+.success-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .success-container h2 {
+    font-size: 24px;
+    color: #00aaff;
+  }
+  
+  .success-container p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  /* Animation example */
+  .success-container {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .submitted-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message {
+    animation: slide-up 0.5s ease forwards;
+  }
+  
+  @keyframes slide-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .submitted-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .submitted-container p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .back-to-home-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-to-home-btn:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group-container {
+    margin-bottom: 20px;
+}
+
+.form-group2 {
+    margin-bottom: 10px;
+}
+
+.form-group2 label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group2 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.center-btn {
+    display: block;
+    margin: 0 auto;
+}
+
+  
+
+
