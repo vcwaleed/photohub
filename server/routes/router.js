@@ -12,12 +12,12 @@ const { LocalStorage } = require('node-localstorage');
 const localStorage = new LocalStorage('./scratch');
 const crypto = require('crypto');
 // const secretKey = crypto.randomBytes(32).toString('hex');
-const secretKey = "qwertyuioplkjhgfdsazxcvbnm13456789";
+const secretKey = "";
 
 
 const nodemailer = require('nodemailer');
 
-const stripe = require("stripe")("sk_test_51PARToLnneDt0WxlJJzzJiBzPK5OIKyBXoKUgpcpVAXDuVKlTyA9qJfuNoMVRQjNy6ApiN6jvesXriRhk41HOZIm00aqrqQW8D");
+const stripe = require("stripe")("");
 
 
 ////////////////////////////////////////////////////////////////////////////////////////
